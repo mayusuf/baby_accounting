@@ -1,0 +1,157 @@
+.has-error, .error {
+    color: #a94442;
+    font-size: 11px;
+    font-family: verdana;
+}
+
+  thead, tfoot {
+    background: #ccc;
+    color: #555;
+}
+
+.tooltip {
+    position: fixed;
+}
+
+.footer {
+    bottom: 0;
+}
+label {
+	font-family: 'Roboto Medium';
+	color: rgb(104, 104, 104);
+}
+.ui-datepicker {
+	width: 17em;
+	padding: .2em .2em 0;
+	display: none;
+    background:#846733;  
+}
+.ui-datepicker .ui-datepicker-title {
+	margin: 0 2.3em;
+	line-height: 1.8em;
+	text-align: center;
+    color:#FFFFFF;
+    background:#846733;  
+}
+.ui-datepicker table {
+	width: 100%;
+	font-size: .7em;
+	border-collapse: collapse;
+    font-family:verdana;
+	margin: 0 0 .4em;
+    color:#000000;
+    background:#FDF8E4;    
+}
+.ui-datepicker td {
+
+	border: 0;
+	padding: 1px;
+
+    
+}
+.ui-datepicker td span,
+.ui-datepicker td a {
+	display: block;
+	padding: .8em;
+	text-align: right;
+	text-decoration: none;
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        
+	
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+	
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+	
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+	.tool_inf{
+			margin-top:15px;
+		}
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+	.tool_inf{
+			margin-top:15px;
+		}
+	#loginForm {
+		margin-top:160px;
+		margin-left:150px;
+	}
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+		
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+	
+	#loginForm {
+		margin-top:160px;
+		width:50%;
+		margin-left:160px;
+	}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+	.tool_inf{
+			margin-top:-5px;
+		}
+	#loginForm {
+		margin-top:200px;
+		width:100%;
+		margin-left:0px;
+	}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+	.tool_inf{
+			margin-top:-5px;
+		}
+	#loginForml {
+		margin-top:200px;
+		width:100%;
+		margin-left:0px;
+	}
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        .tool_inf{
+			margin-top:-5px;
+		}
+		#loginForm {
+		margin-top:200px;
+		width:100%;
+	}
+    }
